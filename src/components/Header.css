@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  width: 50vw;
+  margin-top: 1.5em;
+
+  position: static;
+
+  /* animation: hide linear both;
+  animation-timeline: scroll(root);
+  animation-range: 0 100px; */
+}
+
+.navbar > div > a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  background: transparent;
+}
+
+.navbar > div > a.active {
+  color: #caaddc;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 80vw;
+  }
+}
+
+@keyframes hide {
+  from {
+    opacity: 1;
+    display: flex;
+  }
+  to {
+    opacity: 0;
+    display: none;
+  }
+}
