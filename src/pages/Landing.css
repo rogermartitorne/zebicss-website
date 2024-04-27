@@ -10,11 +10,12 @@ main {
 header {
   text-align: center;
   max-width: 800px;
-  min-width: 250px;
+  min-width: 300px;
   padding-inline: 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-wrap: pretty;
 }
 
 header > h1 {
@@ -32,7 +33,7 @@ header > p {
 }
 
 p {
-  font-size: clamp(0.8em, 3vw, 1em);
+  font-size: clamp(0.8em, 3vw, 1.2em);
 }
 
 #links {
