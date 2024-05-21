@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import "./Docs.css";
 import Header from "../components/Header.jsx";
 
